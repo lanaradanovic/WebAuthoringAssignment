@@ -1,1 +1,86 @@
 @charset "utf-8";
+#wrapper
+		{	
+		width: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		}
+
+body {background-color: #EFEFEF}
+
+nav {
+		top: 40px;
+		background-color: #f2f2f2;	}
+
+nav ul {
+			list-style-type: none;
+			font-display: block; 
+			margin:0;
+			padding:0;
+			overflow: hidden;
+			position: absolute;
+			top: 0px;
+			width: 100%;
+	
+		
+		}
+nav li {		
+			display: inline;
+			float: left;
+	
+			
+		}
+nav li a {
+			color:  #433A34;
+			text-align: center;
+			display: block;			
+			padding: 50px 65px;
+			font-size: 200%;
+			text-decoration: none;
+	
+			
+		}
+.top {
+	width: 1500px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	border-color: #433A34;
+	border-style: solid;
+	border-width: 3px;
+	background-image: url("images/mepic.png")
+	}
+
+	
+.card
+	{
+	width: 1330px;
+	float: left;
+	margin-left: 57px;
+	margin-bottom: 50px;
+	background-color: white;
+	margin-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	height:500px;
+	display: inline;
+	}	
+	
+.cardpic
+	{
+	position: absolute;
+	}
+
+footer{
+		clear: both;
+		height: 200px;
+		background-image: url("images/footer.png");
+		background-repeat: no-repeat;
+		background-position: bottom right;
+		padding-top: 100px;
+	border-color: #433A34;
+	border-style: solid;
+	border-width: 3px;
+		}
+	
