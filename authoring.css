@@ -61,8 +61,8 @@ nav li a {
 	margin-bottom: 50px;
 	background-color: white;
 	margin-top: 30px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: auto;
+	padding-right: auto;
 	height:500px;
 	display: inline;
 	}	
@@ -74,6 +74,7 @@ nav li a {
 
 footer{
 		clear: both;
+		width: 1500px;
 		height: 200px;
 		background-image: url("images/footer.png");
 		background-repeat: no-repeat;
