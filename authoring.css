@@ -1,15 +1,20 @@
 @charset "utf-8";
 #wrapper
 		{	
-		width: auto;
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
 		margin-top: 20px;
 		margin-bottom: 20px;
 		}
 
-body {background-color: #EFEFEF}
+body {background-color: #EAEEDF;
+ 		margin: 0;
+}
 
 nav {
-		top: 40px;
+	 	position: relative;
+ 		overflow: hidden;
 		background-color: #f2f2f2;	}
 
 nav ul {
@@ -34,17 +39,53 @@ nav li a {
 			color:  #433A34;
 			text-align: center;
 			display: block;			
-			padding: 50px 65px;
-			font-size: 200%;
+			padding: 25px 80px;
+			font-size: 150%;
 			text-decoration: none;
 	
 			
 		}
+
+a:link
+	{
+		color: #3F3024;
+		background-color:transparent;
+		text-decoration:none;
+	}
+	
+	
+	a:visited
+	{
+		color:#343434;
+		background-color:transparent;
+		text-decoration:none;
+	}
+	
+	a:hover
+	{
+		color:#00000;
+		background-color:transparent;
+		text-decoration:underline;
+	}
+	
+	a:active
+	{
+		color:#9C4600;
+		background-color:transparent;
+		text-decoration:underline;
+	
+	}
+img {	border: 1px solid #433A34;
+		border-radius: 4px;
+		padding: 5px;
+		width: 350px;
+		margin-left: 50px;
+	margin-top: 20px;
+}
 .top {
 	width: 1500px;
 	height: 600px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	background-repeat: no-repeat;
 	border-color: #433A34;
 	border-style: solid;
@@ -54,17 +95,16 @@ nav li a {
 
 	
 .card
-	{
-	width: 1330px;
-	float: left;
-	margin-left: 57px;
-	margin-bottom: 50px;
-	background-color: white;
+	{background-color: #FFFFFF;
+	color: #433A34;
+    margin: auto;
 	margin-top: 30px;
-	padding-left: auto;
-	padding-right: auto;
-	height:500px;
-	display: inline;
+	margin-bottom: 30px;
+	font-size: 150%;
+  	width: 65%;
+  	border: 3px solid #433A34;
+ 	padding: 10px 10px 10px 10px;
+	
 	}	
 	
 .cardpic
@@ -72,10 +112,14 @@ nav li a {
 	position: absolute;
 	}
 
+
 footer{
 		clear: both;
 		width: 1500px;
 		height: 200px;
+		margin: auto;
+		position: relative;
+ 		overflow: hidden;
 		background-image: url("images/footer.png");
 		background-repeat: no-repeat;
 		background-position: bottom right;
