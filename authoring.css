@@ -10,6 +10,10 @@
 
 body {background-color: #EAEEDF;
  		margin: 0;
+	background-image: url("images/background.png");
+	background-repeat: repeat;
+	background-position: bottom right;
+	background-attachment: fixed;
 }
 
 nav {
@@ -82,6 +86,14 @@ img {	border: 1px solid #433A34;
 		margin-left: 50px;
 	margin-top: 20px;
 }
+.blogpic
+		{width: 800px;
+		height: 250px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		margin-left: 250px;
+		display: block;
+	}
 .top {
 	width: 1500px;
 	height: 600px;
@@ -90,9 +102,17 @@ img {	border: 1px solid #433A34;
 	border-color: #433A34;
 	border-style: solid;
 	border-width: 3px;
-	background-image: url("images/mepic.png")
+	background-image: url("images/mainpic.png")
 	}
 
+.container 
+	{
+	width: 1000px;
+	height: 800px;
+	margin: auto;
+	display: block;
+	padding-top:20px;
+	}
 	
 .card
 	{background-color: #FFFFFF;
@@ -102,17 +122,29 @@ img {	border: 1px solid #433A34;
 	margin-bottom: 30px;
 	font-size: 150%;
   	width: 65%;
-  	border: 3px solid #433A34;
- 	padding: 10px 10px 10px 10px;
-	
+  	border: 3px solid #433A34;	
 	}	
 	
 .cardpic
 	{
 	position: absolute;
 	}
+.link {padding-left: 500px;}
 
+h1 {
+	text-align: center;
+}
+h2 {padding-left: 50px;}
 
+ul {padding-left: 500px;}
+p {padding-left: 500px;
+padding-right: 50px;}
+blockquote {padding-left: 440px;
+padding-right: 50px;}
+h4 {padding-left: 500px;}
+h5 {padding-left: 500px;}
+
+h6 {padding-left: 500px;}
 footer{
 		clear: both;
 		width: 1500px;
