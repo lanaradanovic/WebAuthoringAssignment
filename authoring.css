@@ -84,8 +84,15 @@ img {	border: 1px solid #433A34;
 		padding: 5px;
 		width: 350px;
 		margin-left: 50px;
-	margin-top: 20px;
+		margin-top: 20px;
+	margin-bottom: 20px;
 }
+.bigpic { all: revert;
+width: 1200px;
+margin-left: 55px;
+margin-bottom: 55px;}
+
+
 .blogpic
 		{width: 800px;
 		height: 250px;
@@ -130,18 +137,43 @@ img {	border: 1px solid #433A34;
 	position: absolute;
 	}
 .link {padding-left: 500px;}
+.info {
+	padding-left: 120px;
+	padding-right: 100px;
+	text-align:center;
+	color:#433A34;
+	margin-left:auto;
+	margin-right:auto;
+	width:20em;
+	border: thin #433A34;
 
+}
+#mc_embed_signup {
+	background-image: url("images/subscribe.png");
+	color: #584F42
+	}
+.brandingLogo
+{padding-right: 100px;}
+.indicates-required {padding-left: 400px;}
+.button {margin-left: 300px;}
+.mc-field-group
+{padding-left: 20px;}
+.clear
+{padding-left: 200px;}
+.mailchimp
+{margin-left: 200px;}
 h1 {
 	text-align: center;
 }
-h2 {padding-left: 50px;}
-
+h2 {padding-left: 500px;}
+h3 {padding-left: 50px}
 ul {padding-left: 500px;}
 p {padding-left: 500px;
 padding-right: 50px;}
 blockquote {padding-left: 440px;
 padding-right: 50px;}
-h4 {padding-left: 500px;}
+h4 {padding-left: 500px;
+padding-right: 50px;}
 h5 {padding-left: 500px;}
 
 h6 {padding-left: 500px;}
